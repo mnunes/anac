@@ -1,0 +1,16 @@
+Package: anac
+Type: Package
+Title: Base histórica de dados da ANAC
+Version: 0.1
+Date: 2019-12-12
+Author: Marcus Nunes
+Maintainer: Marcus Nunes <marcus@marcusnunes.me>
+Depends:
+  R (>= 3.5.0), tidyverse, lubridate
+Description: Dados a respeito de voos comerciais realizados no Brasil e disponibilizados no site da ANAC.
+URL: https://github.com/mnunes/anac
+BugReports: https://github.com/mnunes/anac/issues
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

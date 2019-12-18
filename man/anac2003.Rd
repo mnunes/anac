@@ -1,13 +1,8 @@
 \docType{data}
 \name{anac2003}
-\alias{anac2003}
 \title{Base histórica de dados da ANAC}
 \format{ Tibble com 12 colunas. Cada linha equivale a um voo regular de empresa aérea. Estão disponíveis dados entre 2001 e 2019 nos outros arquivos deste pacote.
 
-
-\description{
-Dados a respeito de voos comerciais realizados no Brasil e disponibilizados no site da ANAC. O Voo Regular Ativo – VRA é uma base de dados composta por informações de voos de empresas de transporte aéreo regular que apresenta alterações de voos (atrasos, antecipações e cancelamentos), horários em que os voos ocorreram e as justificativas apresentadas pelas empresas aéreas para tais alterações. Por meio desta base de dados, pode ser obtida os índices de pontualidade, regularidade e de desempenho operacional além dos percentuais de atrasos e cancelamentos. O mês publicado se refere às etapas cujas decolagens eram previstas para o mês em questão ou cujas decolagens, em caso de etapa não prevista, foram realizadas no mês em questão.
-}
 
 \describe{
 
@@ -43,6 +38,9 @@ Dados a respeito de voos comerciais realizados no Brasil e disponibilizados no s
 data(anac2003)
 }
 
+\description{
+Dados a respeito de voos comerciais realizados no Brasil e disponibilizados no site da ANAC. O Voo Regular Ativo – VRA é uma base de dados composta por informações de voos de empresas de transporte aéreo regular que apresenta alterações de voos (atrasos, antecipações e cancelamentos), horários em que os voos ocorreram e as justificativas apresentadas pelas empresas aéreas para tais alterações. Por meio desta base de dados, pode ser obtida os índices de pontualidade, regularidade e de desempenho operacional além dos percentuais de atrasos e cancelamentos. O mês publicado se refere às etapas cujas decolagens eram previstas para o mês em questão ou cujas decolagens, em caso de etapa não prevista, foram realizadas no mês em questão.
+}
 
 \examples{
 library(tidyverse)

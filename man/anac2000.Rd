@@ -1,6 +1,6 @@
 \docType{data}
-\name{anac2011}
-\alias{anac2011}
+\name{anac2001}
+\alias{anac2001}
 \title{Base histórica de dados da ANAC}
 \format{ Tibble com 12 colunas. Cada linha equivale a um voo regular de empresa aérea. Estão disponíveis dados entre 2001 e 2019 nos outros arquivos deste pacote.
 
@@ -36,7 +36,7 @@
 }
 
 \usage{
-data(anac2011)
+data(anac2000)
 }
 
 \description{
@@ -46,9 +46,9 @@ Dados a respeito de voos comerciais realizados no Brasil e disponibilizados no s
 \examples{
 library(tidyverse)
 library(anac)
-data(anac2011)
+data(anac2001)
 # aeroportos de onde mais partiram voos
-anac2011 %>%
+anac2001 %>%
   group_by(ICAOAerodromoOrigem) %>%
   summarise(Total = n()) %>%
   arrange(desc(Total))

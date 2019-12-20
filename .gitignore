@@ -6,3 +6,4 @@ trash.R
 *.csv
 R/coleta.R
 R/completar.R
+.RDataTmp

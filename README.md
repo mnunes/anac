@@ -45,5 +45,5 @@ Case seja do seu interesse realizar uma análise em mais de um ano, será necess
                              package = "anac")))
     }
 
-Isso criará o objeto `camara`, com todos os mais de 3 milhões de observações armazenadas neste conjunto de dados. 
+Isso criará o objeto `anac`, com todos os mais de 3 milhões de observações armazenadas neste conjunto de dados. 
 
